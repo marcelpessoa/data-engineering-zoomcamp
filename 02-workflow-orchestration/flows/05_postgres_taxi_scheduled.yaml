@@ -12,7 +12,7 @@ inputs:
     type: SELECT
     displayName: Select taxi type
     values: [yellow, green]
-    defaults: yellow
+    defaults: green
 
 variables:
   file: "{{inputs.taxi}}_tripdata_{{trigger.date | date('yyyy-MM')}}.csv"
