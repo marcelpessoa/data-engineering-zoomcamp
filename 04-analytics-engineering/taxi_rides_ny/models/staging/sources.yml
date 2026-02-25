@@ -62,6 +62,8 @@ sources:
           - name: ehail_fee
             description: E-hail fee
 
+        config:
+          loaded_at_field: lpep_pickup_datetime
       - name: yellow_tripdata
         description: Raw yellow taxi trip records
         config:
