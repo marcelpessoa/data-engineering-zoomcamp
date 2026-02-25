@@ -84,9 +84,11 @@ service-account.json
 serviceaccount.json
 gcp-*.json
 google-*.json
+*creds.json
 
 # Environment variables
 .env
 .env.local
 .env.*.local
 *.env
+dbt_internal_packages/
