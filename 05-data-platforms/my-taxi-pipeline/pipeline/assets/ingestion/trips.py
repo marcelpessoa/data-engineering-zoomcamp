@@ -9,7 +9,7 @@ depends:
 
 materialization:
   type: table
-  strategy: create+replace          # ← change from append to create+replace
+  strategy: append # create+replace
 
 columns:
   - name: pickup_datetime
