@@ -9,7 +9,7 @@ depends:
 
 materialization:
   type: table
-  strategy: append
+  strategy: replace          # ← change from append to replace
 
 columns:
   - name: pickup_datetime
@@ -17,7 +17,7 @@ columns:
     description: "When the meter was engaged"
   - name: dropoff_datetime
     type: timestamp
-    description: "When the meter was disengaged"
+    description: "When the meter is disengaged"
 @bruin"""
 
 import os
