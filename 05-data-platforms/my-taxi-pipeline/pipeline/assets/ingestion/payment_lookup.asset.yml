@@ -1,5 +1,8 @@
 name: ingestion.payment_lookup
 type: bq.seed
+
+depends:
+  - setup.create_datasets
 parameters:
   path: payment_lookup.csv
 columns:

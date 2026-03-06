@@ -4,6 +4,9 @@ type: python
 image: python:3.11
 connection: my-gcp-db
 
+depends:
+  - setup.create_datasets
+
 materialization:
   type: table
   strategy: append
