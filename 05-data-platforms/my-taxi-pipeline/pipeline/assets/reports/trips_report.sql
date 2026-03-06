@@ -1,6 +1,7 @@
 /* @bruin
 name: reports.trips_report
-type: duckdb.sql
+type: bq.sql
+connection: my-gcp-db
 
 depends:
   - staging.trips
