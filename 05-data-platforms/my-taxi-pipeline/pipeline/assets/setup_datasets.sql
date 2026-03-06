@@ -1,6 +1,7 @@
 /* @bruin
 name: setup.create_datasets
 type: bq.sql
+connection: my-gcp-db
 
 # ensure the landing datasets exist before any ingestion runs
 @bruin */

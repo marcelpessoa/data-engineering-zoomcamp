@@ -1,6 +1,7 @@
 /* @bruin
 name: staging.trips
 type: bq.sql
+connection: my-gcp-db
 
 depends:
   - ingestion.trips

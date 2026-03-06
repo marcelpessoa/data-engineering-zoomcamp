@@ -1,5 +1,6 @@
 name: ingestion.payment_lookup
 type: bq.seed
+connection: my-gcp-db
 
 depends:
   - setup.create_datasets
