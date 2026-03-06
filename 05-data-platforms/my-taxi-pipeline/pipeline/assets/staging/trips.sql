@@ -1,6 +1,6 @@
 /* @bruin
 name: staging.trips
-type: bigquery.sql
+type: bq.sql
 
 depends:
   - ingestion.trips
